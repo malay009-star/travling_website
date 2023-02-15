@@ -1,0 +1,299 @@
+    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Fredoka+One&family=Merienda:wght@300;400;500;600;700;800;900&family=Montserrat:wght@500&family=Noto+Serif:wght@400;700&family=Patua+One&family=Poppins:wght@200;400;500;700&family=Questrial&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
+    .hero_section {
+        padding-top: 2rem;
+        height: 100%;
+        margin-top: 1rem;
+        background-image: url('/Assets/img/1.jpg');
+        background-repeat: no-repeat;
+        background-size: 32%;
+        background-position-x: 100%;
+        h1 {
+            font-size: 4.6rem;
+            font-weight: 500;
+            color: $dark-color;
+            font-family: 'Noto Serif', serif;
+        }
+    }
+    
+    .hero_1 {
+        display: flex;
+        img {
+            margin-top: 1rem;
+            width: 265px;
+            height: 265px;
+        }
+        .hero_info {
+            padding-left: 2.6rem;
+            width: 60%;
+        }
+    }
+    
+    .hero_info p {
+        padding-top: 1.3rem;
+        font-family: sans-serif;
+        font-size: 1.093rem;
+        line-height: $line-space;
+        width: 60%;
+        color: $para-color;
+    }
+    
+    .icon_section {
+        margin-top: 3.5rem;
+        width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 4px 15px -3px rgba($color: #000000, $alpha: 0.1);
+        h5 {
+            color: $hover-effect;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+        p {
+            font-size: 0.95rem;
+            color: $para-color;
+        }
+        i {
+            color: $dark-color;
+        }
+        .icon_flex {
+            display: flex;
+        }
+        .main-icon {
+            width: 83%;
+            padding: 1rem 13.3rem 1rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    
+    .info_space {
+        padding-left: 1rem;
+    }
+    
+    #search_info {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-color: $dark-color;
+        padding: 1.7rem 1.6rem;
+        i {
+            color: #fff;
+        }
+        h5 {
+            color: #fff;
+            letter-spacing: 0.2rem;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+        &:hover {
+            background-color: $hover-effect;
+        }
+    }
+    
+    // large size is start
+    @include large {
+        .hero_section {
+            padding-top: 1rem;
+            margin-top: 1.5rem;
+            height: 100%;
+            h1 {
+                font-size: 3rem;
+            }
+        }
+        .hero_1 {
+            img {
+                width: 200px;
+                height: 200px;
+            }
+            .hero_info {
+                padding-left: 1.8rem;
+                width: 60%;
+            }
+        }
+        .hero_info p {
+            width: 71%;
+            padding-top: 1rem;
+            font-size: 1rem;
+            line-height: 1.58rem;
+        }
+        .icon_section {
+            margin-top: 1.7rem;
+            width: 75%;
+            h5 {
+                font-size: 0.9rem;
+            }
+            p {
+                font-size: 0.8rem;
+            }
+            .main-icon {
+                width: 83%;
+                padding: 0rem 0rem 0rem 0rem;
+            }
+        }
+        #search_info {
+            padding: 1.2rem 1.1rem;
+            i {
+                color: #fff;
+            }
+            h5 {
+                letter-spacing: 0.2rem;
+                font-size: 1rem;
+            }
+        }
+    }
+    
+    // tablet size is start
+    @include tablet {
+        .hero_section {
+            padding-top: 0.8rem;
+            h1 {
+                font-size: 2.4rem;
+            }
+        }
+        .hero_1 {
+            img {
+                width: 150px;
+                height: 150px;
+            }
+            .hero_info {
+                padding-left: 1rem;
+                width: 100%;
+            }
+        }
+        .hero_info p {
+            width: 60%;
+            padding-top: 0.8rem;
+            font-size: 0.91rem;
+            line-height: 1.5rem;
+        }
+        .icon_section {
+            margin-top: 1.2rem;
+            width: 75%;
+            .main-icon {
+                width: 83%;
+                padding: 0.8rem 2.2rem 0.5rem 1rem;
+            }
+            h5 {
+                font-size: 0.9rem;
+            }
+            p {
+                font-size: 0.8rem;
+            }
+        }
+        #search_info {
+            padding: 1.2rem 0.7rem;
+            i {
+                color: #fff;
+            }
+            h5 {
+                font-size: 0.8rem;
+            }
+        }
+    }
+    
+    @include mobile {
+        .hero_section {
+            width: 110%;
+            margin-top: 2.5rem;
+            background-position-x: 116%;
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+        .hero_1 {
+            img {
+                width: 105px;
+                height: 105px;
+            }
+        }
+        .hero_info p {
+            width: 60%;
+            font-size: 0.85rem;
+            span {
+                display: none;
+            }
+        }
+        .icon_section {
+            height: 50px;
+            margin-top: 1.2rem;
+            width: 90%;
+            background-color: white;
+            .main-icon {
+                width: 100%;
+                padding: 0rem 0rem 0rem 0rem;
+            }
+            h5 {
+                font-size: 0.8rem;
+            }
+            p {
+                font-size: 0.7rem;
+            }
+            i {
+                font-size: 0.9rem;
+            }
+        }
+        #search_info {
+            margin-top: 6.5rem;
+            padding: 1.1rem 0.5rem;
+        }
+    }
+    
+    @include sm-mobile {
+        .hero_section {
+            margin-top: 1.8rem;
+            padding-top: 0rem;
+            background-position-x: 125%;
+            h1 {
+                font-size: 1.2rem;
+            }
+        }
+        .hero_1 {
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+        .hero_info p {
+            line-height: 1.2rem;
+            padding-top: 0.5rem;
+            width: 80%;
+            font-size: 0.74rem;
+        }
+        .icon_section {
+            height: 50px;
+            margin-top: 1.2rem;
+            width: 95%;
+            background-color: white;
+            .info_space {
+                padding-left: 0.5rem;
+            }
+            .main-icon {
+                width: 100%;
+                padding: 0rem 0rem 0rem 0rem;
+            }
+            h5 {
+                font-size: 0.7rem;
+            }
+            p {
+                font-size: 0.6rem;
+            }
+            i {
+                font-size: 0.8rem;
+            }
+        }
+        #search_info {
+            margin-top: 6.5rem;
+            padding: 0.5rem 0.5rem;
+            margin-top: 5rem;
+            h5 {
+                font-size: 0.6rem;
+                letter-spacing: 0rem;
+                padding-left: 0rem;
+            }
+            i {
+                font-size: 0.6rem;
+            }
+        }
+    }

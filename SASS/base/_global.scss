@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Fira+Sans:wght@300;400;500;600;700;800;900&family=Fredoka+One&family=Heebo:wght@300;400;500;600;700;800;900&family=Merienda:wght@300;400;500;600;700;800;900&family=Montserrat:wght@500&family=Patua+One&family=Poppins:wght@200;400;500;700&family=Questrial&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
+*,
+::after,
+::before {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.same_space {
+    padding: 10rem 0;
+}
+
+.text-center {
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #16293C;
+    margin-bottom: 2rem;
+}
+
+@mixin large {
+    @media (max-width: 1000px) {
+        @content;
+    }
+}
+
+@include large {
+    .text-center {
+        font-size: 1.9rem
+    }
+}
+
+@mixin tablet {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@include tablet {
+    .text-center {
+        font-size: 1.7rem
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 500px) {
+        @content;
+    }
+}
+
+@include mobile {
+    .text-center {
+        font-size: 1.5rem
+    }
+    .malay {
+        margin-top: 2rem;
+    }
+}
+
+@mixin sm-mobile {
+    @media (max-width: 350px) {
+        @content;
+    }
+}
+
+@include sm-mobile() {
+    .text-center {
+        font-size: 1.3rem
+    }
+}

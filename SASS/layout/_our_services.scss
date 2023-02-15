@@ -1,0 +1,162 @@
+#our-service {
+    margin-top: 1.65rem;
+}
+
+.services {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .service-info {
+        margin-top: 0.7rem;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 30%;
+        height: 100%;
+        padding: 3rem 2px;
+        text-align: center;
+        box-shadow: 0px 0px 5px 1px rgba($color: #000000, $alpha: 0.1);
+    }
+    #date-book {
+        margin-top: 0rem;
+        border: none;
+        box-shadow: 0px 0px 25px rgba($color: #000000, $alpha: 0.1);
+    }
+}
+
+.service-info {
+    .see-more {
+        margin-top: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $hover-effect;
+    }
+    h5 {
+        font-size: 1.3rem;
+        font-weight: 400;
+        padding-top: 1.4rem;
+        color: $hover-effect;
+    }
+    p {
+        padding-top: 0.5rem;
+        color: $para-color;
+    }
+}
+
+.service-icon i {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0.7rem;
+    border-radius: 10rem;
+    background-color: #e6e6f5;
+    color: #6fbbf1;
+}
+
+#date-icon i {
+    background-color: #e6e6f5;
+    color: #B0B2FF;
+}
+
+#hoteling i {
+    color: #FFAE4E;
+    background-color: #ffe8cd;
+}
+
+.see-more {
+    p {
+        font-size: 1.1rem;
+        color: $hover-effect;
+        padding-right: 1rem;
+    }
+    i {
+        padding-top: 0.5rem;
+    }
+}
+
+#middle-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0rem 3rem;
+    padding-bottom: 0.7rem;
+    background-color: $dark-color;
+    p {
+        color: white;
+    }
+}
+
+#middle-btn:hover {
+    background-color: $hover-effect;
+}
+
+@include tablet {
+    .services {
+        .service-info {
+            margin-top: 0.5rem;
+            width: 32%;
+            height: 100%;
+            padding: 1.3rem 1.5px;
+        }
+    }
+    .service-info {
+        .see-more {
+            margin-top: 1.3rem;
+        }
+        h5 {
+            font-size: 1rem;
+            padding-top: 1.2rem;
+        }
+        p {
+            padding-top: 0.5rem;
+            font-size: 0.83rem;
+        }
+    }
+    .service-icon i {
+        font-size: 1.4rem;
+        padding: 0.5rem;
+    }
+    .see-more {
+        i {
+            font-size: 0.8rem;
+        }
+    }
+    #middle-btn {
+        padding: 0rem 2.3rem;
+        padding-bottom: 0.4rem;
+    }
+}
+
+@include mobile {
+    #our-service {
+        margin-top: 0rem;
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .service-info {
+            width: 80%;
+            padding: 1.2rem 1rem;
+            margin-top: 2rem;
+            padding-top: 1.8rem;
+        }
+    }
+    #sahoo {
+        margin-bottom: 2rem;
+    }
+    .service-icon i {
+        font-size: 1.4rem;
+        padding: 0.5rem;
+    }
+    .see-more {
+        i {
+            font-size: 0.8rem;
+        }
+    }
+}

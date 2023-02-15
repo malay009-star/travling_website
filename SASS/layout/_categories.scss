@@ -1,0 +1,298 @@
+    .categories_section {
+        width: 85%;
+        margin: auto;
+    }
+    
+    .categories_type {
+        color: $dark-color;
+        text-align: center;
+        font-weight: 400;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        p {
+            font-size: 1.2rem;
+            padding-top: 1.4rem;
+            color: $hover-effect;
+        }
+    }
+    
+    .categories-icon {
+        padding: 2rem 0rem;
+        width: 18%;
+        box-shadow: 0px 0px 5px 1px rgba($color: #000000, $alpha: 0.1);
+    }
+    
+    .categories-icon i {
+        cursor: pointer;
+        font-size: 1.6rem;
+        padding: 0.5rem;
+        border-radius: 10rem;
+        background-color: #e6e6f5;
+        color: #B0B2FF;
+    }
+    
+    #hotel i {
+        color: #FFAE4E;
+        background-color: #ffe8cd;
+    }
+    
+    #house {
+        border: none;
+        box-shadow: 0px 0px 25px rgba($color: #000000, $alpha: 0.1);
+        i {
+            color: #50D5AD;
+            background-color: #cefff0;
+        }
+    }
+    
+    #booking i {
+        background-color: #e6e6f5;
+        color: #B0B2FF;
+    }
+    
+    #airplan i {
+        color: #5599F1;
+        background-color: #d6e8ff;
+    }
+    
+    .video_section {
+        position: relative;
+        width: 90%;
+        height: 400px;
+        margin: auto;
+        top: 100px;
+    }
+    
+    .video-wrapper {
+        width: 100%;
+        position: relative;
+        height: 400px;
+        max-height: 400px;
+        overflow: hidden;
+    }
+    
+    video {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .video-part {
+        position: absolute;
+        top: 65%;
+        left: 5%;
+        width: 75%;
+        margin: auto;
+        border-radius: 6px;
+        background-color: white;
+        box-shadow: 0px 1px 15px 8px rgba($color: #000000, $alpha: 0.05);
+    }
+    
+    .video-info {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 1.1rem 0rem 3rem;
+        h3 {
+            width: 60%;
+            font-size: 2.3rem;
+            font-weight: 450;
+            color: $dark-color;
+            // background-color: yellow;
+        }
+        .vertical_border {
+            width: 4px;
+            height: 100px;
+            content: "";
+            background-color: rgb(187, 187, 187);
+        }
+        p {
+            padding-left: 1.6rem;
+            line-height: $line-space;
+            color: $para-color;
+        }
+    }
+    
+    .video-seemore {
+        display: inline-block;
+        margin-left: auto;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        width: 20%;
+        padding: 1rem 0rem;
+        background-color: $dark-color;
+        color: white;
+        p {
+            padding-left: 20%;
+        }
+        i {
+            padding-left: 1rem;
+        }
+        &:hover {
+            background-color: $hover-effect;
+        }
+    }
+    
+    // large size start
+    @include large {
+        .video-part {
+            width: 85%;
+            padding: 2rem 1.1rem 0rem 2rem;
+            h3 {
+                width: 55%;
+                font-size: 1.8rem;
+                // background-color: yellow;
+            }
+            .vertical_border {
+                width: 7px;
+            }
+            p {
+                padding-left: 1.6rem;
+                line-height: 2rem;
+                font-size: 0.97rem;
+            }
+        }
+        .video-seemore {
+            width: 22%;
+            padding: 1rem 0rem;
+            margin-top: 1rem;
+            margin-left: 80.5%;
+        }
+    }
+    
+    @include tablet {
+        .categories_type {
+            p {
+                font-size: 0.92rem;
+                padding-top: 1rem;
+            }
+        }
+        .categories-icon {
+            padding: 1rem 0rem;
+        }
+        .categories-icon i {
+            font-size: 1.4rem;
+            padding: 0.4rem;
+        }
+        // video section
+        .video_section {
+            height: 300px;
+            max-height: 300px;
+        }
+        .video-wrapper {
+            height: 300px;
+            max-height: 300px;
+        }
+        .video-part {
+            padding: 1.5rem 1.1rem 0rem 1.5rem;
+            h3 {
+                width: 80%;
+                font-size: 1.3rem;
+                // background-color: yellow;
+            }
+            .vertical_border {
+                width: 0.5rem;
+                height: 6.2rem;
+            }
+            p {
+                padding-left: 1.6rem;
+                line-height: 2rem;
+                font-size: 0.97rem;
+            }
+        }
+        .video-seemore {
+            width: 28%;
+            padding: 0.6rem 0rem;
+            margin-top: 1rem;
+            margin-left: 75.2%;
+            p {
+                padding-left: 22%;
+            }
+            i {
+                font-size: 0.97;
+                padding-left: 0.8rem;
+            }
+        }
+    }
+    
+    // mobile is start
+    @include mobile {
+        .categories_type {
+            align-items: center;
+            p {
+                font-size: 0.9rem;
+            }
+        }
+        .categories-icon {
+            padding: 2rem 0rem;
+            width: 45%;
+            // height: 30px;
+        }
+        #house {
+            box-shadow: 0px 0px 5px 1px rgba($color: #000000, $alpha: 0.1);
+        }
+        #airplan {
+            margin-left: 25%;
+        }
+        .video-part {
+            top: 40%;
+            width: 90%;
+            padding: 1rem 1rem 0rem 1rem;
+            h3 {
+                width: 100%;
+                font-size: 1rem;
+                // background-color: yellow;
+            }
+            .vertical_border {
+                width: 0.48rem;
+            }
+            p {
+                padding-left: 1rem;
+                line-height: 1.3rem;
+                font-size: 0.8rem;
+            }
+        }
+        .video-seemore {
+            width: 35%;
+            padding: 0.6rem 0rem;
+            margin-top: 1rem;
+            margin-left: 69.5%;
+            p {
+                padding-left: 22%;
+            }
+            i {
+                font-size: 0.7rem;
+                padding-left: 0.6rem;
+            }
+        }
+    }
+    
+    // sm mobile
+    @include sm-mobile {
+        .categories_type {
+            p {
+                font-size: 0.9rem;
+            }
+        }
+        .categories-icon {
+            padding: 2rem 0rem;
+            width: 45%;
+            // height: 30px;
+        }
+        .video-part {
+            top: 20%;
+            padding: 0.8rem 0.2rem 0rem 1rem;
+        }
+        .video-seemore {
+            width: 35%;
+            padding: 0.6rem 0rem;
+            margin-top: 0.8rem;
+            margin-left: 55%;
+            p {
+                padding-left: 15%;
+            }
+            i {
+                padding-left: 0.4rem;
+            }
+        }
+    }

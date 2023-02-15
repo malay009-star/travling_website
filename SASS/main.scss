@@ -1,0 +1,15 @@
+// base page
+@import "base/global";
+@import "base/typography";
+// utilities pages
+@import "utilities/helpers";
+@import "utilities/variables";
+// lay out desing pages
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/categories";
+@import "layout/our_services";
+@import "layout/destination";
+@import "layout/user_profile";
+@import "layout/trip_opertunity";
+@import "layout/footer";
