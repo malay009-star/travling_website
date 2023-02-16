@@ -147,3 +147,18 @@
         }
     }
 }
+
+@include sm-mobile {
+    #destination {
+        padding: 0.7rem 0.9rem;
+    }
+    #Packages {
+        padding: 0.7rem 0.9rem;
+    }
+    #Date {
+        padding: 0.7rem 0.9rem;
+    }
+    #now {
+        padding: 0.7rem 0rem;
+    }
+}

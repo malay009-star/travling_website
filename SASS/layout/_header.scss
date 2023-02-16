@@ -1,5 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Fredoka+One&family=Merienda:wght@300;400;500;600;700;800;900&family=Montserrat:wght@500&family=Noto+Serif:wght@400;700&family=Patua+One&family=Poppins:wght@200;400;500;700&family=Questrial&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
     .hero_section {
+        background-color: red;
         padding-top: 2rem;
         height: 100%;
         margin-top: 1rem;
@@ -246,7 +247,7 @@
             padding-top: 0rem;
             background-position-x: 125%;
             h1 {
-                font-size: 1.2rem;
+                font-size: 0.95rem;
             }
         }
         .hero_1 {
@@ -259,7 +260,7 @@
             line-height: 1.2rem;
             padding-top: 0.5rem;
             width: 80%;
-            font-size: 0.74rem;
+            font-size: 0.72rem;
         }
         .icon_section {
             height: 50px;

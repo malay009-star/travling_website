@@ -184,7 +184,9 @@
             max-height: 300px;
         }
         .video-part {
-            padding: 1.5rem 1.1rem 0rem 1.5rem;
+            .video-info {
+                padding: 1.5rem 1.1rem 0rem 1.5rem;
+            }
             h3 {
                 width: 80%;
                 font-size: 1.3rem;
@@ -237,7 +239,9 @@
         .video-part {
             top: 40%;
             width: 90%;
-            padding: 1rem 1rem 0rem 1rem;
+            .video-info {
+                padding: 1rem 1rem 0rem 1rem;
+            }
             h3 {
                 width: 100%;
                 font-size: 1rem;
@@ -280,14 +284,26 @@
             // height: 30px;
         }
         .video-part {
-            top: 20%;
-            padding: 0.8rem 0.2rem 0rem 1rem;
+            width: 91%;
+            left: 4.5%;
+            padding: 0rem 0rem 0rem 0rem;
+        }
+        .video-info {
+            flex-direction: column;
+            padding: 0rem 0rem 0rem 0rem;
+            .vertical_border {
+                display: none;
+            }
+            p {
+                padding-left: 0rem;
+                font-size: 0.7rem;
+            }
         }
         .video-seemore {
-            width: 35%;
-            padding: 0.6rem 0rem;
+            width: 45%;
+            padding: 0.40rem 0rem;
             margin-top: 0.8rem;
-            margin-left: 55%;
+            margin-left: auto;
             p {
                 padding-left: 15%;
             }
