@@ -114,17 +114,16 @@
     
     .video-seemore {
         display: inline-block;
+        background-color: red;
         margin-left: auto;
         cursor: pointer;
         display: flex;
         align-items: center;
+        justify-content: center;
         width: 20%;
         padding: 1rem 0rem;
         background-color: $dark-color;
         color: white;
-        p {
-            padding-left: 20%;
-        }
         i {
             padding-left: 1rem;
         }
@@ -147,7 +146,6 @@
                 width: 7px;
             }
             p {
-                padding-left: 1.6rem;
                 line-height: 2rem;
                 font-size: 0.97rem;
             }
@@ -208,7 +206,7 @@
             margin-top: 1rem;
             margin-left: 75.2%;
             p {
-                padding-left: 22%;
+                padding-left: 0%;
             }
             i {
                 font-size: 0.97;
@@ -262,7 +260,7 @@
             margin-top: 1rem;
             margin-left: 69.5%;
             p {
-                padding-left: 22%;
+                padding-left: 0%;
             }
             i {
                 font-size: 0.7rem;
@@ -300,15 +298,15 @@
             }
         }
         .video-seemore {
-            width: 45%;
+            width: 35%;
             padding: 0.40rem 0rem;
             margin-top: 0.8rem;
             margin-left: auto;
             p {
-                padding-left: 15%;
+                padding-left: 0%;
             }
             i {
-                padding-left: 0.4rem;
+                padding-left: 0.6rem;
             }
         }
     }

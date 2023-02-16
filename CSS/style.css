@@ -213,7 +213,6 @@ nav .women-logo img {
   }
 }
 .hero_section {
-  background-color: red;
   padding-top: 2rem;
   height: 100%;
   margin-top: 1rem;
@@ -450,22 +449,22 @@ nav .women-logo img {
     background-position-x: 125%;
   }
   .hero_section h1 {
-    font-size: 0.95rem;
+    font-size: 1.6rem;
   }
   .hero_1 img {
-    width: 60px;
-    height: 60px;
+    width: 61px;
+    height: 61px;
   }
   .hero_info p {
     line-height: 1.2rem;
     padding-top: 0.5rem;
     width: 80%;
-    font-size: 0.72rem;
+    font-size: 0.8rem;
   }
   .icon_section {
     height: 50px;
     margin-top: 1.2rem;
-    width: 95%;
+    width: 91%;
     background-color: white;
   }
   .icon_section .info_space {
@@ -486,13 +485,13 @@ nav .women-logo img {
   }
   #search_info {
     margin-top: 6.5rem;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
     margin-top: 5rem;
   }
   #search_info h5 {
     font-size: 0.6rem;
     letter-spacing: 0rem;
-    padding-left: 0rem;
+    padding-left: 0.5rem;
   }
   #search_info i {
     font-size: 0.6rem;
@@ -613,17 +612,16 @@ video {
 
 .video-seemore {
   display: inline-block;
+  background-color: red;
   margin-left: auto;
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 20%;
   padding: 1rem 0rem;
   background-color: #16293C;
   color: white;
-}
-.video-seemore p {
-  padding-left: 20%;
 }
 .video-seemore i {
   padding-left: 1rem;
@@ -645,7 +643,6 @@ video {
     width: 7px;
   }
   .video-part p {
-    padding-left: 1.6rem;
     line-height: 2rem;
     font-size: 0.97rem;
   }
@@ -699,7 +696,7 @@ video {
     margin-left: 75.2%;
   }
   .video-seemore p {
-    padding-left: 22%;
+    padding-left: 0%;
   }
   .video-seemore i {
     font-size: 0.97;
@@ -749,7 +746,7 @@ video {
     margin-left: 69.5%;
   }
   .video-seemore p {
-    padding-left: 22%;
+    padding-left: 0%;
   }
   .video-seemore i {
     font-size: 0.7rem;
@@ -781,16 +778,16 @@ video {
     font-size: 0.7rem;
   }
   .video-seemore {
-    width: 45%;
+    width: 35%;
     padding: 0.4rem 0rem;
     margin-top: 0.8rem;
     margin-left: auto;
   }
   .video-seemore p {
-    padding-left: 15%;
+    padding-left: 0%;
   }
   .video-seemore i {
-    padding-left: 0.4rem;
+    padding-left: 0.6rem;
   }
 }
 #our-service {

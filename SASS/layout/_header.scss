@@ -1,6 +1,5 @@
     @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Fredoka+One&family=Merienda:wght@300;400;500;600;700;800;900&family=Montserrat:wght@500&family=Noto+Serif:wght@400;700&family=Patua+One&family=Poppins:wght@200;400;500;700&family=Questrial&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
     .hero_section {
-        background-color: red;
         padding-top: 2rem;
         height: 100%;
         margin-top: 1rem;
@@ -247,25 +246,25 @@
             padding-top: 0rem;
             background-position-x: 125%;
             h1 {
-                font-size: 0.95rem;
+                font-size: 1.6rem;
             }
         }
         .hero_1 {
             img {
-                width: 60px;
-                height: 60px;
+                width: 61px;
+                height: 61px;
             }
         }
         .hero_info p {
             line-height: 1.2rem;
             padding-top: 0.5rem;
             width: 80%;
-            font-size: 0.72rem;
+            font-size: 0.8rem;
         }
         .icon_section {
             height: 50px;
             margin-top: 1.2rem;
-            width: 95%;
+            width: 91%;
             background-color: white;
             .info_space {
                 padding-left: 0.5rem;
@@ -286,12 +285,12 @@
         }
         #search_info {
             margin-top: 6.5rem;
-            padding: 0.5rem 0.5rem;
+            padding: 0.5rem 0.8rem;
             margin-top: 5rem;
             h5 {
                 font-size: 0.6rem;
                 letter-spacing: 0rem;
-                padding-left: 0rem;
+                padding-left: 0.5rem;
             }
             i {
                 font-size: 0.6rem;
