@@ -449,7 +449,7 @@ nav .women-logo img {
     background-position-x: 125%;
   }
   .hero_section h1 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
   .hero_1 img {
     width: 61px;
@@ -914,6 +914,9 @@ video {
   }
 }
 @media (max-width: 500px) {
+  #nazia {
+    padding-top: 6rem;
+  }
   #our-service {
     margin-top: 0rem;
   }
@@ -937,6 +940,14 @@ video {
   }
   .see-more i {
     font-size: 0.8rem;
+  }
+}
+@media (max-width: 368px) {
+  #service {
+    padding-top: 3rem;
+  }
+  #our-service {
+    margin-top: 0rem;
   }
 }
 .destination-images {
@@ -1083,6 +1094,7 @@ video {
 }
 @media (max-width: 368px) {
   .destination-images .destination-box {
+    width: 90%;
     margin-top: 0rem;
   }
   .destination-images .destination-box img {

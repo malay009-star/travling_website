@@ -133,6 +133,9 @@
 }
 
 @include mobile {
+    #nazia {
+        padding-top: 6rem;
+    }
     #our-service {
         margin-top: 0rem;
     }
@@ -158,5 +161,14 @@
         i {
             font-size: 0.8rem;
         }
+    }
+}
+
+@include sm-mobile {
+    #service {
+        padding-top: 3rem;
+    }
+    #our-service {
+        margin-top: 0rem;
     }
 }
